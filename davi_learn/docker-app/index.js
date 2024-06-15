@@ -6,11 +6,19 @@ app.get("/", (req, res) => {
   res.json([
     {
       id: 1,
-      name: "Arsh",
+      name: "Rohan",
     },
     {
       id: 2,
       name: "Rakesh",
+    },
+    {
+      id: 3,
+      name: "Ajay",
+    },
+    {
+      id: 4,
+      name: "Akash",
     },
   ]);
 });
