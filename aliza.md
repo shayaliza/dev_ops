@@ -1,10 +1,25 @@
 ## Aliza Roadmap for DevOps
 
 - Docker
-- Jenkins
+  - contairizing all types of application
+  - publising to dockerHub
 - Kubernetes
+  - helm charts
+  - terraform
+- CI-CD
+  - Jenkins
+  - Travis CI
+  - GitLab CI
+  - Circle CI
 - Nginx
-- AWS
+- Cloud
+  - AWS
+  - Azure
+  - GCP
+- Tools
+  - Ansible
+  - SonarQube
+  - Maven
 
 ---
 
@@ -16,4 +31,14 @@
 
 ---
 
-> 16 june 2024 - Docker Day 2
+> 16 june 2024 - Docker Day 2 I Dockerised Mongo backend
+>
+> Also Full Mern Stack Along with hot reload
+>
+> Published the Images to Docker Hub for this mern
+
+---
+
+> 17 June 2024 to 18 June 2024
+>
+> I will work minimal because of festival
