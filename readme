@@ -1,1 +1,7 @@
-# Welcome to dev ops 
+#Welcome to dev ops
+
+#To create docker image - docker build -t --Image-name-- .
+
+#To create volume + container - docker run --name basic-container -p 5500:5500 --rm -v [copy-path index.js(exclude)] basic-app
+
+#linux basic commands + docker command with linux
