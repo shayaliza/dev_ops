@@ -1,0 +1,38 @@
+# this is deployemnt yaml file for k8s
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todo-web
+  labels:
+    app: todo-web
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: todo-web
+  template:
+    metadata:
+      labels: #pods ke liye
+        app: todo-web
+    spec:
+      containers:
+        - name: todo-web
+          image: shayaliza/todo:web
+        - name: todo-api
+          image: shayaliza/todo:api
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: alizak8s
+spec:
+  ports:
+    - protocol: TCP
+      name: http
+      port: 8080
+      targetPort: 5173
+  selector:
+    app: todo-web #same should be in deployemnt file
+  type: LoadBalancer

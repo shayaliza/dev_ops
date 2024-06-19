@@ -31,7 +31,9 @@
 
 ---
 
-> 16 june 2024 - Docker Day 2 I Dockerised Mongo backend
+> 16 june 2024 - Docker Day 2
+>
+> I Dockerised Mongo backend
 >
 > Also Full Mern Stack Along with hot reload
 >
@@ -39,6 +41,17 @@
 
 ---
 
-> 17 June 2024 to 18 June 2024
+> 17 June 2024 to 18 June 2024 || Kubernates Started
 >
-> I will work minimal because of festival
+> Kubernates Stated
+>
+> Installed kubctl and minikube Can pull the images from docker to k8s and run
+> it with minikube
+
+> 19 June 2024
+>
+> Pushed one more to docker Hub Fetch using kubctl
+>
+> Found one problem of Env
+>
+> Made Notes of k8s and minikube and docker hub
