@@ -18,3 +18,7 @@
 > 16 june 2024 - Docker Started
 >
 > - learnt some linux commands with docker.
+
+> 20 june 2024 - Docker Started
+>
+> - learnt how to push and pull image on docker hub.
