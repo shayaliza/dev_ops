@@ -55,3 +55,13 @@
 > Found one problem of Env
 >
 > Made Notes of k8s and minikube and docker hub
+
+> 20 June to 24 June 2024
+>
+> Rough Days
+>
+> Apart from this, made Authentication System with JWT and session using Python
+> Fast api
+>
+> Fast Api is Awesome like we get ui for our own routes this was best feature I
+> have discoverd
